@@ -3,7 +3,7 @@ class Account:
     A class representing details for a person's account
     """
 
-    def __init__(self, name):
+    def __init__(self, name: str):
         """
         Constructor to create initial state of a person's account
         :param name: Person's name
